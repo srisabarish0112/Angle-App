@@ -8,7 +8,7 @@ Explore a topic, choose your voice, and create **push notifications and marketin
 
 ---
 
-## 💡 The Problem
+## The Problem
 
 Discovering a trend is easy. Knowing **whether it matters to your audience—and what your brand should say about it—is harder**.
 
@@ -18,9 +18,9 @@ Marketing teams often move between research, writing, design, and delivery tools
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔎 Trend Radar
+### Trend Radar
 
 Discover **24 sample topics** across:
 
@@ -41,7 +41,7 @@ Every topic includes:
 
 Search, filter, and bookmark topics for later.
 
-### ✍️ Content Builder
+### Content Builder
 
 Selecting a topic immediately prepares **email and push notification drafts**.
 
@@ -55,7 +55,7 @@ Choose from three writing styles:
 
 Edit the **title, message, button text, destination URL, and image visibility**.
 
-### 📱 Live Previews
+### Live Previews
 
 See your content update as you type:
 
@@ -64,7 +64,7 @@ See your content update as you type:
 - Topic illustrations included in both formats
 - Simulated button interactions
 
-### 🎨 Brand Kit
+### Brand Kit
 
 Maintain the context behind your messaging:
 
@@ -77,21 +77,11 @@ Maintain the context behind your messaging:
 
 The prototype uses selected Brand Kit fields in its sample copy and previews.
 
-### 💾 Save & Export
-
-- Save drafts locally in your browser
-- Reopen saved work inside Content Builder
-- Copy message content
-- Export emails as **HTML**
-- Export push notifications as **JSON**
-
-### 📊 Performance
+### Performance
 
 Explore a sample dashboard showing how **delivery, engagement, and conversions** could be monitored.
 
----
-
-## 🤖 Designed for an Agent-Powered Workflow
+## Designed for an Agent-Powered Workflow
 
 Angle’s proposed backend connects five specialized agents:
 
@@ -109,79 +99,4 @@ Discover → Evaluate relevance → Draft → Review → Deliver → Learn
 
 The one-minute interval is a proposed source-check schedule, subject to provider limits—not a guarantee of new information every minute.
 
----
 
-## 🚀 Try the Prototype
-
-1. Download or clone this repository.
-2. Open **`angle-studio-unique-illustrations.html`** in a modern browser.
-3. Explore a topic in **Trend Radar**.
-4. Select **Create content**.
-5. Choose a channel and writing style.
-6. Edit, preview, save, or export your message.
-
-**No installation, build step, API key, or backend is required.**
-
-All illustrations are embedded in the HTML file. External research links require internet access.
-
----
-
-## 🛠️ Built With
-
-- **HTML**
-- **CSS**
-- **Vanilla JavaScript**
-- **Browser localStorage**
-- **Embedded AI-generated illustrations**
-
-The entire prototype is packaged in **one HTML file**, with no external runtime libraries or remote image dependencies.
-
----
-
-## 📌 Current Status
-
-**Angle is currently an interactive frontend prototype.**
-
-### Implemented
-
-- Topic browsing, filtering, and search
-- Unique illustrations for all 24 topics
-- Topic briefs and related research links
-- Prefilled sample email and push copy
-- Three writing styles
-- Editable live previews
-- Brand Kit configuration
-- Local draft saving and content exports
-- Sample performance dashboard
-
-### Planned Backend Capabilities
-
-- Live trend and news ingestion
-- Agent-based relevance assessment
-- LLM-generated content using full company and audience context
-- Audience segmentation
-- Approved email and push delivery
-- Real engagement tracking and performance analysis
-
-> **Topics, copy, and analytics currently use sample data.**
-> Research links open related searches rather than verified trend-origin citations.
-> The prototype does not send emails or push notifications.
-
----
-
-## 🔭 What’s Next
-
-- Validate the workflow with marketing teams.
-- Measure **time to an approved draft** and **editing effort**.
-- Add verified sources, freshness checks, and relevance scoring.
-- Connect the agent workflow with review and approval controls.
-- Integrate audience segmentation and delivery platforms.
-- Use actual engagement data to improve future content.
-
----
-
-## 💾 Storage
-
-Drafts and settings are stored in your browser’s **localStorage**.
-
-They are **not synchronized across devices**. Export important work before clearing browser data.
